@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace CheckAndPasswordGenerator
 {
-    public partial class HasłoForm : Form
+    public partial class PasswordForm : Form
     {
-        public HasłoForm()
+        public PasswordForm()
         {
             InitializeComponent();
         }
@@ -106,7 +106,7 @@ namespace CheckAndPasswordGenerator
 
             bool upper = false, lower = false, number = false, punct = false, symbol = false, length = false;
 
-            if (password.Length > 7)
+            if (password.Length >= 7)
             {
                 length = true;
 

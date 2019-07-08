@@ -16,7 +16,7 @@ namespace CheckAndPasswordGenerator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HasłoForm());
+            Application.Run(new PasswordForm());
         }
     }
 }

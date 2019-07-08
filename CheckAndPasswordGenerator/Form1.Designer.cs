@@ -1,6 +1,6 @@
 ﻿namespace CheckAndPasswordGenerator
 {
-    partial class HasłoForm
+    partial class PasswordForm
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HasłoForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PasswordForm));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.HowMuchSignTextBox = new System.Windows.Forms.TextBox();
@@ -95,9 +95,9 @@
             this.TitleLabel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.TitleLabel.Location = new System.Drawing.Point(57, 9);
             this.TitleLabel.Name = "TitleLabel";
-            this.TitleLabel.Size = new System.Drawing.Size(325, 30);
+            this.TitleLabel.Size = new System.Drawing.Size(328, 30);
             this.TitleLabel.TabIndex = 4;
-            this.TitleLabel.Text = "Sprawdzacz i generator Haseł!";
+            this.TitleLabel.Text = "Generator i Sprawdzacz Haseł!";
             this.TitleLabel.Click += new System.EventHandler(this.TitleLabel_Click);
             // 
             // GeneratorButton
@@ -228,7 +228,7 @@
             this.pictureBoxNotOK.TabStop = false;
             this.pictureBoxNotOK.Visible = false;
             // 
-            // HasłoForm
+            // PasswordForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -249,7 +249,7 @@
             this.Controls.Add(this.HowMuchSignTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "HasłoForm";
+            this.Name = "PasswordForm";
             this.Text = "Hasło!!!";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNotOK)).EndInit();
